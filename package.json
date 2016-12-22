@@ -1,0 +1,39 @@
+{
+  "name": "mongoose-find-or-error",
+  "version": "1.0.0",
+  "description": "Simple Mongoose plugin for rejecting findOne and findById promises which resolve null",
+  "main": "index.js",
+  "scripts": {
+    "test": "node ./node_modules/mocha/bin/mocha tests/index.js",
+    "lint": "node ./node_modules/eslint/bin/eslint.js ./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kaltsoon/mongoose-find-or-error.git"
+  },
+  "keywords": [
+    "mongoose"
+  ],
+  "author": "Kaltsoon",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Kaltsoon/mongoose-find-or-error/issues"
+  },
+  "homepage": "https://github.com/Kaltsoon/mongoose-find-or-error#readme",
+  "devDependencies": {
+    "bson-objectid": "^1.1.4",
+    "chai": "^3.5.0",
+    "eslint": "^3.12.2",
+    "eslint-config-airbnb": "^13.0.0",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-jsx-a11y": "^2.2.3",
+    "eslint-plugin-react": "^6.8.0",
+    "mocha": "^3.2.0",
+    "mongodb": "^2.2.16",
+    "mongoose": "^4.7.4"
+  },
+  "dependencies": {
+    "bluebird": "^3.4.6",
+    "mongoose": "^4.7.4"
+  }
+}
