@@ -1,5 +1,7 @@
 # mongoose-find-or-error
 
+[![Build Status](https://travis-ci.org/Kaltsoon/mongoose-find-or-error.svg?branch=master)](https://travis-ci.org/Kaltsoon/mongoose-find-or-error)
+
 Simple Mongoose plugin for rejecting `findOne` and `findById` promises which resolve null.
 
 # Installation
