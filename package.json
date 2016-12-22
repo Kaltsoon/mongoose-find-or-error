@@ -1,6 +1,6 @@
 {
   "name": "mongoose-find-or-error",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Simple Mongoose plugin for rejecting findOne and findById promises which resolve null",
   "main": "index.js",
   "scripts": {
@@ -33,7 +33,6 @@
     "mongoose": "^4.7.4"
   },
   "dependencies": {
-    "bluebird": "^3.4.6",
-    "mongoose": "^4.7.4"
+    "bluebird": "^3.4.6"
   }
 }
