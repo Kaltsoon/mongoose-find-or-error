@@ -94,7 +94,7 @@ You can override the default errors by defining plugin options:
 ```javascript
 schema.plugin(findOrErrorPlugin, {
   getFindByIdError: (id, modelName) => new MyCustomError(`Couldn't find ${modelName} by id ${id}`),
-  getFindOneError: (query, modelName) => new MyCustomError(`Couldn't find ${modelName} with query`)
+  getFindOneError: (query, modelName) => new MyCustomError(`Couldn't find ${modelName} by query`)
 });
 ```
 
